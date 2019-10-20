@@ -4,24 +4,24 @@ Legacy repo of my discontinued reconstructer.org website with some tools and pap
 Table of contents:
 ------------------
 
--> OfficeMalScanner
-   -----------------
+-> OfficeMalScanner.zip
+   --------------------
    OfficeMalScanner is a Microsft Office forensic tool to scan for malicious traces, like shellcode heuristics, PE-files or embedded OLE
    streams. Found files are being extracted to disk. It supports disassembly and hexview as well as an easy brute force mode to detect
    encrypted files. Next to this, an office file is being scanned for VB-macros code and if found, it will be extracted for further
    analysis.The "inflate" feature extracts Ms Office 2007 documents into a directory and marks potentially malicious files. 
 
 
--> ClassAndInterfaceToNames
-   ------------------------
+-> ClassAndInterfaceToNames.zip
+   -----------------------------
    This small IDAPython script scans an IDB file for class and interfaces UUIDs and creates the matching structure and its names.
    Unfortunately IDA doesn't do this automatically, thus this little helper. It can help you when reversing malware 
    using the COM interface, e.g. for IE-Browser or Outlook manipulation, BITS file transfer or dumping the protected storage. Make sure to
    copy interfaces.txt + classes.txt + ClassAndInterfaceToNames.py to IDADIR, e.g. C:\Program Files\IDA
 
 
--> VtablesStructuresFromPSDK2003R2
-  -------------------------------
+-> VtablesStructuresFromPSDK2003R2.zip
+  ------------------------------------
   This small IDAPython script includes all vtable structures that can be found in the files of the Microsoft PSDK 2003-R2. After running the
   script in IDA it adds these vtable structures to an IDB file. This will save time while reconstructing COM code.
 
