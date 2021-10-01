@@ -6,7 +6,7 @@ Table of contents:
 
 -> OfficeMalScanner.zip
    --------------------
-   OfficeMalScanner is a Microsft Office forensic tool to scan for malicious traces, like shellcode heuristics, PE-files or embedded OLE
+   OfficeMalScanner is a Microsoft Office forensic tool to scan for malicious traces, like shellcode heuristics, PE-files or embedded OLE
    streams. Found files are being extracted to disk. It supports disassembly and hexview as well as an easy brute force mode to detect
    encrypted files. Next to this, an office file is being scanned for VB-macros code and if found, it will be extracted for further
    analysis.The "inflate" feature extracts Ms Office 2007 documents into a directory and marks potentially malicious files. 
@@ -59,7 +59,7 @@ Table of contents:
 -> Hunting malware with Volatility v2.0.pdf
   ----------------------------------------
   Practical guide to show Volatility's powerful capabilities in malware forensics - One of most infamous rootkits like (e.g. TDL3, TDL4,
-  Stuxnet, Zeroacces, Rustock B. + C.) will be treated and how to find them in physical memory.
+  Stuxnet, Zeroaccess, Rustock B. + C.) will be treated and how to find them in physical memory.
 
 
 ->Hunting rootkits with Windbg.pdf
